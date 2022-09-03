@@ -1,0 +1,363 @@
+body{
+    font-family: 'Roboto', sans-serif;
+
+}
+h1{
+    font-size: 6.3rem;
+    font-weight: 700;
+}
+h2{
+    text-align: center;
+    font-size: 5.5rem;
+    font-weight: bolder;
+    margin-top: 150px;
+    color: rgb(49 49 49);
+}
+h3{
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+h4{
+    font-weight: bold;
+    font-size: 2.5rem;
+    margin: 20px 0;
+}
+p{
+    line-height: 2rem;
+
+    letter-spacing: 1px;
+}
+.social{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    position: absolute;
+    top: 80vh;
+    left: 50px;
+}
+#header{
+    background-color: rgb(30 90 249);
+    width: 100%;
+    height: 100vh;
+    color: white;
+    
+    background-image: url("../img/svg.svg");
+    background-size: cover;
+}
+.doco{
+    position: absolute;
+    top: 0px;
+    left: 70px;
+}
+.navbar{
+    padding-top: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    flex-basis: 33% 33% 33%;
+    /* padding: 1%; */
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.margin-neg{
+    margin-left: -180px;
+}
+.link a{
+    padding: 5px;
+    text-decoration: none;
+    color: white;
+}
+.logs a{
+    padding-right: 5px;
+    text-decoration: none;
+    color: white;
+}
+.logs button{
+    background-color: white;
+    border: none;
+    border-radius:5px;
+    padding: 5px 10px 5px 10px;
+    cursor: po;
+}
+.titolo{
+    padding-top: 100px;
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: center;
+
+}
+.titolo h1{
+    margin-bottom: 50px;
+}
+#main{
+    background-image: url("../img/svg2.svg");
+    background-size: contain;
+}
+
+.iphone{
+    height: 1000px;
+    width: 1000px;
+    background-size: cover;
+    position: absolute;
+    top: 50vh;
+    left: 50vh;
+    background-image: url("../img/iphone.png");
+}
+
+.scarica{
+    text-align: center;
+}
+.google{
+    margin-top: 45vh;
+    width: 350px;
+}
+.spazio{
+    height: 300px;
+}
+.blue{
+    height: 500px;
+    width: 700px;
+    border-radius: 15px;
+    background-color: #1e5af9;
+    position: relative;
+}
+.dodici{
+    width: 426px;
+    height: 852px;
+    position: relative;
+    left: 18%;
+    top: -45%;
+}
+
+.learn{
+    width: 130px;
+    height: 40px;
+    color: black;
+    background-color: rgb(255, 255, 255);
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.learn:hover{
+    background-color: #000f37;
+    color: white;
+    
+}
+.flex{
+    display: flex;
+    max-width: 1500px;
+    margin: 0 auto;
+    gap: 80px;
+}
+.flex h3{
+font-size: 4rem;
+margin-bottom: 30px;
+}
+.flex p{
+line-height: 2rem;
+margin-bottom: 30px;
+letter-spacing: 1px;
+}
+.titolo p{
+    margin-top: 50px;
+}
+.partner{
+    width: 240px;
+    height: 70px;
+    
+    box-shadow: 3px 11px 26px 11px rgba(0,0,0,0.20);
+}
+.partner img{
+    width: 240px;
+    height: 70px;
+}
+.flex-2{
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 90px;
+}
+.flex-2 div{
+    margin-bottom: 25px;
+}
+#container{
+    width: 1500px;
+    overflow-x: hidden;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+#slider{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    transition: all 1s;
+}
+.testimonial{
+    width: 600px;
+    padding: 50px;
+    background-color: #e0dede;
+    margin: 20px;
+    border: 0.5px solid rgba(221, 221, 221, 0.534);
+    border-radius: 10px;
+}
+.testimonial:hover{
+    background-color: white;
+    box-shadow: 3px 11px 12px 11px rgba(124, 121, 121, 0.2);
+   
+}
+.testimonial img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+.testimonial p{
+    font-style: italic;
+    margin-bottom: 20px;
+}
+.flex-testimonial{
+    display: flex;
+}
+.flex-testimonial div{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    gap: 7px;
+}
+.flex-testimonial b{
+    font-weight: 700;
+}
+.flex-testimonial cite{
+    color: gray;
+}
+#next, #prev{
+    cursor: pointer;
+}
+.arrows{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: -150px;
+}
+.accordion{
+    height: 90px;
+    background-color: #e0dede;
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 20px;
+    transition:  height 1s, background-color 1s;
+    cursor: pointer;
+}
+.accordion svg{
+    position: absolute;
+    left: 50px;
+    top: 15px;
+}
+.accordion span{
+    position: absolute;
+    left: 150px;
+    top: 30px;
+    font-size: 1.3rem;
+}
+.accordion p{
+    position: absolute;
+    left: 150px;
+    top: 50px;
+    line-height: initial;
+    letter-spacing: 1px;
+    text-align: start;
+    padding-right: 10px;
+}
+.open{
+    height: 200px;
+    background-color: white;
+}
+.op-zero{
+    opacity: 0 ;
+    /* transition: opacity 1s; */
+    
+}
+.op-uno{
+    animation-name: spin;
+    animation-duration: 0.5s;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+}
+.download{
+    margin-top: -450px;
+    margin-left: -30px;
+}
+.blue-sec{
+    margin-top: 300px;
+    background-color: #1e5af9;
+    height: 180px;
+    padding: 70px;
+    border-radius: 10px;
+    color: white;
+    align-items: center;
+    
+}
+.blue-sec button{
+    background-color: #1e5af9;
+    color: white;
+    border-color: white;
+    width: 250px;
+    height: 60px;
+}
+.blue-sec button:hover{
+    background-color: white;
+    color:#1e5af9;
+}
+.riassunto{
+    margin: 0 auto;
+    margin-top: 150px;
+    max-width: 1500px;
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    line-height: 1.6rem;
+}
+.primo{
+    max-width: 360px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.email-input{
+    height: 30px;
+    margin-right: 5px;
+    background-color: aliceblue;
+    border: 0.5px solid gainsboro;
+    border-radius: 5px;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.column a{
+    text-decoration: none;
+    color: black;
+}
+footer{
+    text-align: center;
+    color: rgb(175, 175, 175);
+    background-color: #000f37;
+    width: 100%;
+    height: 50px;
+    padding-top: 10px;
+    margin-top: 80px;
+
+}
+
+
+@keyframes spin { 
+    from { 
+        opacity: 0;
+        transform: rotate(0deg); 
+    } to { 
+        opacity: 1;
+        transform: rotate(180deg); 
+    }
+}
